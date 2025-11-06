@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*  */
+.headerSection{
+        display:flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: rgb(1, 10, 17);
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.center ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+  font-size: 3rem;
 }
+.left{
+  flex: 3;
+}
+.center{
+  flex:4;
+  /* border: 1px solid black;
+*/
+}
+.search{
+  flex: 2;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.search input{
+  padding: 5px;
+  width: 20rem;
+  border-radius: 5px;
+  margin-left: -150px;
+}
+.right{
+  flex: 4;
+  /* border: 1px solid black; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 0px 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.bannerBox{
+  margin: 10px 0px;
 }
+.bannerBox img{
+  width: 100%;
+}
+.menImages{
+  display: flex;
+  gap: 25px;
+}
+.menImages .product-img{
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  gap: 10px;
+  
+}
+.womensSection{
+  display: flex;
+  gap: 25px;
+}
+.womensSection .products2{
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.FooterSection{
+  background-color: transparent;
+  color: #000;
+  padding: 0 ;
+  margin: 0;
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 0.9;
+  max-height: 60px;
+  
+  
+
 }
